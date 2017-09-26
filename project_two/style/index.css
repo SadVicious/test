@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif
+}
+header{
+	
+	font-size: 14pt;
+	
+	background-color: #6451d5;
+	height: 100px;
+}
+
+ul.navigation{
+	color: white;
+	display: flex;
+	flex-direction: line;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: white;
+}
+ul.navigation li{
+	list-style-type: none;
+	 margin-right: 100px;
+	 padding: 10px;
+}
+ul.navigation a{
+	text-decoration: none;
+	color: white;
+}
+ul.navigation a:hover{
+	text-decoration: underline;
+}
+ul.navigation a:active{
+	text-decoration: underline;
+	color: #998fe1;
+}
+
+
+
+
+
+.all_info{
+	display: flex;
+	height: 400px;
+	margin: 0px;
+	background-color: #6451d5;
+	color: white;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 100px;
+	padding-left: 50px;
+}
+.all_info h1{
+	font-size: 45pt;
+	margin: 0px;
+}
+
+.all_info div{
+height: 60px;
+width: 300px;
+background: #382d78;
+text-align: center;
+vertical-align: middle;
+color: white;
+
+
+
+}
+.all_info a{
+color: white;
+text-decoration: none;
+font-size: 20pt;
+}
+.all_info a:active{
+color: #998fe1;
+text-decoration: underline;
+
+}
+.all_info img{
+position: absolute;
+top: 100px;
+right: 20px;
+}
+.all_info p{
+	color: white;
+}
+#promo{
+color: #998fe1;
+}
+
+.about_us{
+	background-color: #efefef;
+}
+.about_us ul{
+display: flex;
+	flex-direction: line;
+	text-align: center;
+	list-style-type: none;
+}
+.about_us ul {
+margin: 0px;	
+padding-top: 20px;
+}
+
+.education_form{
+
+}
+.education_form table{
+	border-spacing: 0px;
+
+}
+.education_form table th{
+	background-color:  #efefef;
+	padding: 20px;
+}
+.education_form table td{
+padding: 20px;
+}
+.education_form table tr{
+padding: 20px;
+}
+.education_form h2{
+	font-size: 30pt;
+	padding: 20px;
+	padding-left: 120px;
+}
+.education_form a{
+ padding: 100px;
+}
+
