@@ -14,7 +14,7 @@ header{
 ul.navigation{
 	color: white;
 	display: flex;
-	flex-direction: line;
+	flex-direction: row;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -36,11 +36,6 @@ ul.navigation a:active{
 	text-decoration: underline;
 	color: #998fe1;
 }
-
-
-
-
-
 .all_info{
 	display: flex;
 	height: 400px;
@@ -128,6 +123,101 @@ padding: 20px;
 	padding-left: 120px;
 }
 .education_form a{
+position: absolute;
+top: 800px;
+right: 50px;
  padding: 100px;
 }
+#write{
+	margin: 100px;
+}
+#write td{
+	width: 100px;
+	
+}
+#send_message{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 15pt;
+	padding: 20px;
+	width: 340px;
+	border: none;
+	background-color: #6451d5 ;
+}
+#name{
+	padding: 10px;
+}
+.feedback h2{
+		font-size: 30pt;
+	padding: 20px;
+	padding-left: 120px;
+}
+.feedback{
+	background-color:  #efefef;
+}
+.feedback h4{
+position: absolute;
+top: 1300px;
+right: 300px;
+}
+.feedback p{
+	position: absolute;
+top: 1350px;
+left: 900px;
+}
+footer {
+    background-color: #2a2546;
+    height: 360px;
+}
 
+.footer_content {
+    display: flex;
+    width: 100%;
+    min-height: 360px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.address {
+    width: 235px;
+    color: white;
+    font-family: "Tahoma";
+}
+
+.address img {
+    margin-bottom: 60px;
+}
+
+footer ul li:first-child {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+footer ul li {
+    margin-bottom: 20px;
+}
+
+footer ul li a {
+    color: #8a85a4;
+    text-decoration: none;
+}
+
+.footer_content ul li a:hover {
+    color: #d4d3da;
+    border-bottom: 2px solid #d4d3da;
+}
+
+.footer_content ul li a:active {
+    color: #4f4a6a;
+    border: none;
+}

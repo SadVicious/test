@@ -73,38 +73,102 @@
 	</table>
 </section>
 <section class="feedback">
-	<h1>
+	<h2>
 		Обратная связь
-	</h1>
-	<form >
-		<label><p>ФИО:</p><input type="text" name="name" placeholder="Представьтесь, пожалуйста"></label>
-		<p> Пол:</p>
-		 <label>
-		 	 <p>Мужской</p>
-			 <input type="radio" name="pol" value="male">
-		 </label>
-		 <label>
-		 	 <p>Женский</p>
-			 <input type="radio" name="pol" value="female">
-		 </label>
-		 <label> 
-		 <p>
-		 	Доп,текст:
-		 </p>
-		 <textarea rows="10" cols="45"  name="dop" placeholder="Сообщите все, что считаете нужным">
-		 </textarea>
-		 </label>
-		 <input type="submit" name="enter" value="Отправить">
+	</h2>
+
+	<form>
+		<table id="write">
+
+		<tr>
+			<td>
+				<label for="name"><b>ФИО:</p> </label>
+			</td>
+
+			<td>
+				<label><input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="name" size="65px"></label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				 <b>Пол:</b>
+			</td>
+			<td>
+				<label>
+					Мужской
+					<input type="radio" name="pol" value="male">
+				</label>
+				<label>
+					Женский
+					<input type="radio" name="pol" value="female">
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="message">
+					
+						<b>Доп,текст:</b>
+					
+				</label>
+			</td>
+			<td>
+				<label>
+
+		 <textarea id="message" rows="5"  cols="70"  name="dop" placeholder="Сообщите все, что считаете нужным"></textarea>
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+			<input type="submit" name="enter" value="Отправить" id="send_message">
+			</td>
+		</tr>
+		</table>
+
+
 	</form>
 	<h4>
 		Lorem ipsum
 	</h4>
 	<p>
-		Lorem ispum sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+		Lorem ispum sit amet, consectetur <br>
+		 adipiscing elit, sed do <br>
+		 eiusmod tempor<br>
 	</p>
 </section>
 <footer>
-	
+	<div class="footer_content">
+            <div class="address">
+                <a href="index.html"><img src="style/logo.png"></a>
+                <p>197101, г. Санкт-Петербург, пр. Кронверкский, д. 49</p>
+            </div>
+            <ul>
+                <li>Обучение</li>
+                <li><a href="#">Расписание</a></li>
+                <li><a href="#">Предметы</a></li>
+                <li><a href="#">Практика</a></li>
+            </ul>
+            <ul>
+                <li>Выпускники</li>
+                <li><a href="#">Достиджения</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Найти</a></li>
+            </ul>
+            <ul>
+                <li>Как поступить</li>
+                <li><a href="#">На коммерцию</a></li>
+                <li><a href="#">Целевой набор</a></li>
+                <li><a href="#">На бюджет</a></li>
+            </ul>
+            <ul>
+                <li>Контакты</li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">Схема проезда</a></li>
+                <li><a href="#">Телефон/факс</a></li>
+            </ul>
+        </div>
 </footer>
 
 </main>
